@@ -1204,6 +1204,6 @@ if __name__ == "__main__":
     print("="*55)
     print("  ExamSys Online Examination System")
     print("  http://127.0.0.1:5000")
-    
     print("="*55)
     app.run(debug=True, port=5000)
+     
