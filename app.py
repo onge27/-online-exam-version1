@@ -420,7 +420,7 @@ def login():
         </form>
         <p style="text-align:center;margin-top:20px;font-size:.88rem;color:var(--text3)">
           No account? <a href="{url_for('register')}" style="color:var(--green);text-decoration:none">Register here</a></p>
-        <p style="text-align:center;margin-top:8px;font-size:.78rem;color:var(--text3)">Admin: admin@exam.com / admin123</p>
+        <p style="text-align:center;margin-top:8px;font-size:.78rem;color:var(--text3)"> </p>
       </div>
     </div>"""
     return render_template_string(f"<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Login &mdash; ExamSys</title><style>{GLOBAL_STYLE}</style></head><body>{html}</body></html>")
